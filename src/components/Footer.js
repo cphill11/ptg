@@ -8,19 +8,12 @@ function Footer() {
     <section>
       <li>
         <a href="https://www.linkedin.com/in/cristephillips/" className="linkedIn">
-          linkedIn
+          Privacy Policy
         </a>
       </li>
-      <br></br>
-      <li>
-        <a href="https://github.com/cphill11" className="gitHub">
-          Public GitHub Repositories
-        </a>
-      </li>
-      <br></br>
       <li>
         <a href="mailto:criste.phillips@phillipstechnologygroup.com?">
-          Email
+          Contact PTG
         </a>
       </li>
     </section>
