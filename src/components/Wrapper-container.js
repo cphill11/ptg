@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import IndexPtgItSolution from "./Welcome";
 import Service from "./Service";
 import Profile from "./Profile";
-// import Ancillary from "./Ancillary";
+import Demo from "./Demo";
 import NavTabs from "./NavTabs";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -28,9 +28,9 @@ export default function WrapperContainer() {
     if (currentPage === "Profile") {
       return <Profile />;
     }
-    // if (currentPage === "Ancillary") {
-    //   return <Ancillary/>;
-    // }
+    if (currentPage === "Demo") {
+      return <Demo/>;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
